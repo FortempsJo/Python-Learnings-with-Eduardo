@@ -22,7 +22,10 @@ print ("Input donné : " + Next_Track)
 if Next_Track == "OK": 
    print ("Go to next track !!!")
    speaker.next()
-# else print ("No Go to Next Track !!!")
+else: 
+   print ("No Go to Next Track !!!")
+
+
 
 
 
