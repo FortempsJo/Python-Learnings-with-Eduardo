@@ -19,7 +19,7 @@ turtle2.pos()
 
 print (turtle2.pos())
 
-DrawMandala (turtle2,'blue','green',-200,160)
+DrawMandala (turtle2,'blue','green',-200,170)
 
 print (turtle2.pos())
 
