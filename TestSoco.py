@@ -12,7 +12,7 @@ print (speaker.player_name + " : " + speaker.ip_address)
 from soco.discovery import by_name
 Name_Speaker = input ("Donne moi le nom du Sonos : ")
 # Name_Speaker = "Office"
-speaker = by_name(Name_Speaker)
+speaker =by_name(Name_Speaker)
 print (speaker.player_name + " : " + speaker.ip_address)
 speaker.play()
 
@@ -24,6 +24,9 @@ if Next_Track == "OK":
    speaker.next()
 else: 
    print ("No Go to Next Track !!!")
+
+
+
 
 
 
