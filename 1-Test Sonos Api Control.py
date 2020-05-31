@@ -1,0 +1,13 @@
+
+
+SONOS_CLIENT_ID = "129da532-10f1-477a-ab4e-844a8fbd478a"
+SONOS_CLIENT_SECRET = "84979d6a-241f-49f3-b5b4-de2213c632fd"
+SONOS_AUTH_API_BASE_URL = 'https://api.sonos.com'
+SONOS_CONTROL_API_BASE_URL = 'https://api.ws.sonos.com/control/api/v1'
+CLIENT_REDIRECT_PORT_NO = 5000
+CLIENT_REDIRECT_URL = f'http://localhost:{CLIENT_REDIRECT_PORT_NO}'
+CLIENT_SCOPE = ['playback-control-all']
+AUTH_URL = f'{SONOS_AUTH_API_BASE_URL}/login/v3/oauth'
+ACCESS_TOKEN_URL = f'{SONOS_AUTH_API_BASE_URL}/login/v3/oauth/access'
+REFRESH_TOKEN_URL = ACCESS_TOKEN_URL
+

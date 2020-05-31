@@ -5,7 +5,14 @@
 		},
 		{
 			"path": "..\\SoCo\\SoCo"
+		},
+		{
+			"path": "..\\UPnP\\upnp_info"
+		},
+		{
+			"path": "..\\sonos-cli"
 		}
 	],
-	"settings": {}
+	"settings": {
+	}
 }
